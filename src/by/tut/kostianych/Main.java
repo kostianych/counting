@@ -73,6 +73,7 @@ public class Main {
 
         char c = (char) in.read();
 
+        // end of line
         if (c == 65535) {
             return -1;
         }
